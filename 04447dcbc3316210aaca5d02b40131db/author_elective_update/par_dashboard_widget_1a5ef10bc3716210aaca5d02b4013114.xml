@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">d65ef10bc3716210aaca5d02b401310a</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"test","sourceType":"table","tableOrViewName":"x_1601883_testapp_test","filterQuery":"","id":"tablex_1601883_testapp_test1748871220232","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Critical Tasks","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"tablex_1601883_testapp_test1748871220232","id":"tablex_1601883_testapp_test17488712202321748871220236","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props>
+        <h>9</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-02 13:33:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a5ef10bc3716210aaca5d02b4013114</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="TestApp" source="x_1601883_testapp">04447dcbc3316210aaca5d02b40131db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TestApp">04447dcbc3316210aaca5d02b40131db</sys_scope>
+        <sys_update_name>par_dashboard_widget_1a5ef10bc3716210aaca5d02b4013114</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-02 13:33:40</sys_updated_on>
+        <visualization/>
+        <w>16</w>
+        <widget_props/>
+        <x>32</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TestApp">04447dcbc3316210aaca5d02b40131db</application>
+        <file_path/>
+        <instance_id>2c58e3f2db1ef954f697684e1396190b</instance_id>
+        <instance_name>dev208318</instance_name>
+        <name>par_dashboard_widget_1a5ef10bc3716210aaca5d02b4013114</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">d65ef10bc3716210aaca5d02b401310a</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"test","sourceType":"table","tableOrViewName":"x_1601883_testapp_test","filterQuery":"","id":"tablex_1601883_testapp_test1748871220232","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Critical Tasks","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"tablex_1601883_testapp_test1748871220232","id":"tablex_1601883_testapp_test17488712202321748871220236","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props><h>9</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 13:33:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1a5ef10bc3716210aaca5d02b4013114</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="TestApp" source="x_1601883_testapp">04447dcbc3316210aaca5d02b40131db</sys_package><sys_policy/><sys_scope display_value="TestApp">04447dcbc3316210aaca5d02b40131db</sys_scope><sys_update_name>par_dashboard_widget_1a5ef10bc3716210aaca5d02b4013114</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 13:33:40</sys_updated_on><visualization/><w>16</w><widget_props/><x>32</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-609488874</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>90447dcbc3316210aaca5d02b40131e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-02 13:33:40</sys_created_on>
+        <sys_id>565ef10bc3716210aaca5d02b4013116</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19730d90dd30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-02 13:33:40</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>5a5ef10bf8716210d756059139621d15</update_guid>
+        <update_guid_history>5a5ef10bf8716210d756059139621d15:-609488874</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d25ef10bc3716210aaca5d02b4013125</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-02 13:33:40</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>2ac6e86782944aa391f7dd330198fea9</sys_id>
+        <sys_metadata>1a5ef10bc3716210aaca5d02b4013114</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TestApp" source="x_1601883_testapp">04447dcbc3316210aaca5d02b40131db</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TestApp">04447dcbc3316210aaca5d02b40131db</sys_scope>
+        <sys_scope_delete display_value="">436516888e2142e0a42caf884da12210</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_1a5ef10bc3716210aaca5d02b4013114</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_1a5ef10bc3716210aaca5d02b4013114">565ef10bc3716210aaca5d02b4013116</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-02 13:33:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

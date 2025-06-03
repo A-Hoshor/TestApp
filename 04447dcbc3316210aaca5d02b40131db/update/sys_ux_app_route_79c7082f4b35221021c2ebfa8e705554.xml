@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="TestApp App Config">2dc7082f51352210e95ffa787baa912d</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Settings Page</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>settings</route_type>
+        <screen_type display_value="Settings Page">b5c7082f82352210296378aff835e554</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 18:12:35</sys_created_on>
+        <sys_id>79c7082f4b35221021c2ebfa8e705554</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Settings Page</sys_name>
+        <sys_package display_value="TestApp" source="x_1601883_testapp">04447dcbc3316210aaca5d02b40131db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TestApp">04447dcbc3316210aaca5d02b40131db</sys_scope>
+        <sys_update_name>sys_ux_app_route_79c7082f4b35221021c2ebfa8e705554</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 18:12:35</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=79c7082f4b35221021c2ebfa8e705554"/>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Test Relationship">850c3643c3b56210aaca5d02b40131f7</application>
+        <filter/>
+        <name>Test Relationships</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1601883_testapp.test_relationship_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-02 18:03:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>450c3643c3b56210aaca5d02b40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Relationships</sys_name>
+        <sys_package display_value="TestApp" source="x_1601883_testapp">04447dcbc3316210aaca5d02b40131db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TestApp">04447dcbc3316210aaca5d02b40131db</sys_scope>
+        <sys_update_name>sys_ui_module_450c3643c3b56210aaca5d02b40131fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-02 18:03:06</sys_updated_on>
+        <table>x_1601883_testapp_test_relationship</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Choice">b08e9f1fc3712210aaca5d02b4013185</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 15:13:36</sys_created_on>
+        <sys_id>3bce175fc3712210aaca5d02b401312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Choice B</sys_name>
+        <sys_package display_value="TestApp" source="x_1601883_testapp">04447dcbc3316210aaca5d02b40131db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TestApp">04447dcbc3316210aaca5d02b40131db</sys_scope>
+        <sys_update_name>question_choice_3bce175fc3712210aaca5d02b401312c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 15:13:36</sys_updated_on>
+        <text>Choice B</text>
+        <value>b</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=3bce175fc3712210aaca5d02b401312c"/>
+</record_update>

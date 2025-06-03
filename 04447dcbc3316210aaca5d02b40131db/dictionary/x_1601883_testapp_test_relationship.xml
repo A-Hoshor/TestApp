@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="45fbf243c3b56210aaca5d02b4013157" label="Test Relationship" max_length="40" name="x_1601883_testapp_test_relationship" type="collection">
+        <element display="true" label="string" max_length="40" name="string" type="string"/>
+        <element label="Parent Test" max_length="32" name="parent_test" reference="x_1601883_testapp_test" type="reference"/>
+        <index name="index">
+            <element name="parent_test"/>
+        </index>
+    </element>
+</database>

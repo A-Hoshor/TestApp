@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 2" section_id="38a2838bc3b56210aaca5d02b4013171" sys_domain="global" table="x_1601883_testapp_test" version="3" view="workspace-testapp-0">
+        <sys_ui_section action="DELETE">
+            <caption>New section 2</caption>
+            <header>false</header>
+            <name>x_1601883_testapp_test</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-02 18:32:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38a2838bc3b56210aaca5d02b4013171</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1601883_testapp_test</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TestApp" source="x_1601883_testapp">04447dcbc3316210aaca5d02b40131db</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TestApp">04447dcbc3316210aaca5d02b40131db</sys_scope>
+            <sys_update_name>sys_ui_section_38a2838bc3b56210aaca5d02b4013171</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-02 18:32:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace TestApp 0" name="workspace-testapp-0">ac5e310b467162106ee5314af984e92d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TestApp">04447dcbc3316210aaca5d02b40131db</application>
+        <file_path/>
+        <instance_id>2c58e3f2db1ef954f697684e1396190b</instance_id>
+        <instance_name>dev208318</instance_name>
+        <name>sys_ui_section_38a2838bc3b56210aaca5d02b4013171</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 2" section_id="38a2838bc3b56210aaca5d02b4013171" sys_domain="global" table="x_1601883_testapp_test" version="3" view="workspace-testapp-0"><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 2</caption><header>false</header><name>x_1601883_testapp_test</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-02 18:32:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>38a2838bc3b56210aaca5d02b4013171</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1601883_testapp_test</sys_name><sys_overrides/><sys_package display_value="TestApp" source="x_1601883_testapp">04447dcbc3316210aaca5d02b40131db</sys_package><sys_policy/><sys_scope display_value="TestApp">04447dcbc3316210aaca5d02b40131db</sys_scope><sys_update_name>sys_ui_section_38a2838bc3b56210aaca5d02b4013171</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-02 18:32:01</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace TestApp 0" name="workspace-testapp-0">ac5e310b467162106ee5314af984e92d</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>587115115</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>90447dcbc3316210aaca5d02b40131e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-02 18:32:02</sys_created_on>
+        <sys_id>b0a2838bc3b56210aaca5d02b40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19731ea35ef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-02 18:32:02</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>38a2838b70b56210c12ca33e95aee4cb</update_guid>
+        <update_guid_history>38a2838b70b56210c12ca33e95aee4cb:587115115</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-02 18:32:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>633503eb2db6472aae2d06b801a4efa4</sys_id>
+        <sys_metadata>38a2838bc3b56210aaca5d02b4013171</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 2</sys_name>
+        <sys_package display_value="TestApp" source="x_1601883_testapp">04447dcbc3316210aaca5d02b40131db</sys_package>
+        <sys_parent display_value="test">8894350fc3316210aaca5d02b4013176</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TestApp">04447dcbc3316210aaca5d02b40131db</sys_scope>
+        <sys_scope_delete display_value="">436516888e2142e0a42caf884da12210</sys_scope_delete>
+        <sys_update_name>sys_ui_section_38a2838bc3b56210aaca5d02b4013171</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_38a2838bc3b56210aaca5d02b4013171">b0a2838bc3b56210aaca5d02b40131cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-02 18:32:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

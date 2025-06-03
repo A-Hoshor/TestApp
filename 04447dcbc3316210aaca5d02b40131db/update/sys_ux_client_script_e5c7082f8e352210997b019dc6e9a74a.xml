@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Security &amp; sign-in">adc7082f0f35221023a67e20dbb50e49</macroponent>
+        <name>Checking MFA setup</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var modelData = api.data.gliderecord_query_1.output.data.GlideRecord_Query.sys_properties._results[0].value.value;
+    var mfa = {};
+    if (modelData == "false") {
+        api.setState('propertyText', helpers.translateSync("Please enable Multi-factor authentication on the instance."));
+        api.setState('propertyValue', true);
+    } else {
+        api.setState('propertyText', helpers.translateSync("Configure Multi-factor authentication by clicking the button below."));
+        api.setState('propertyValue', false);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 18:12:37</sys_created_on>
+        <sys_id>e5c7082f8e352210997b019dc6e9a74a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Checking MFA setup</sys_name>
+        <sys_package display_value="TestApp" source="x_1601883_testapp">04447dcbc3316210aaca5d02b40131db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TestApp">04447dcbc3316210aaca5d02b40131db</sys_scope>
+        <sys_update_name>sys_ux_client_script_e5c7082f8e352210997b019dc6e9a74a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 18:12:37</sys_updated_on>
+        <target/>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

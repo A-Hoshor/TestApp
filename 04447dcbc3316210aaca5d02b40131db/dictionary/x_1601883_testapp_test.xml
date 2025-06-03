@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8894350fc3316210aaca5d02b4013176" label="test" max_length="40" name="x_1601883_testapp_test" text_index="true" type="collection">
+        <element label="Long String" max_length="1000" name="long_string" type="string"/>
+        <element label="Reference" max_length="32" name="reference" reference="sys_hub_category" type="reference"/>
+        <element label="Test Relationship Reference" max_length="32" name="test_rel_ref" reference="x_1601883_testapp_test_relationship" reference_qual="parent_test=javascript: getTestRelationships()^EQ" type="reference" use_reference_qualifier="advanced"/>
+        <element label="String" max_length="40" name="string" type="string"/>
+        <element label="Small String" max_length="40" name="small_string" type="string"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element choice="1" label="choice" max_length="40" name="choice" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Choice D" sequence="3" value="choice_d"/>
+                <element inactive_on_update="false" label="Choice B" sequence="1" value="choice_b"/>
+                <element inactive_on_update="false" label="Choice C" sequence="2" value="choice_c"/>
+                <element inactive_on_update="false" label="Choice A" sequence="0" value="choice_a"/>
+            </choice>
+        </element>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Color" max_length="255" name="color" type="color"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="rel_list" reference="x_1601883_testapp_test_relationship" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Test Number" max_length="40" name="number" type="string"/>
+        <element label="Decimal" max_length="40" name="decimal" type="string"/>
+        <element label="Integer" max_length="40" name="integer" type="integer"/>
+        <element label="Yes No" max_length="255" name="yes_no" type="boolean"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="reference"/>
+        </index>
+        <index name="index4">
+            <element name="test_rel_ref"/>
+        </index>
+    </element>
+</database>

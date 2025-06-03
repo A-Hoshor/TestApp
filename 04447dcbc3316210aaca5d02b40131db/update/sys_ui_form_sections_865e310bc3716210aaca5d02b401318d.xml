@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="865e310bc3716210aaca5d02b401318d" sys_domain="global" table="x_1601883_testapp_test" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-02 13:33:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e5eb10bc3716210aaca5d02b40131c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1601883_testapp_test" name="x_1601883_testapp_test" sys_domain="global" view="ac5e310b467162106ee5314af984e92d">865e310bc3716210aaca5d02b401318d</sys_ui_form>
+            <sys_ui_section caption="Test" display_value="Test" name="x_1601883_testapp_test" sys_domain="global" view="ac5e310b467162106ee5314af984e92d">965eb10bc3716210aaca5d02b40131c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-02 13:33:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1601883_testapp_test</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-02 13:33:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>865e310bc3716210aaca5d02b401318d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1601883_testapp_test</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TestApp" source="x_1601883_testapp">04447dcbc3316210aaca5d02b40131db</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TestApp">04447dcbc3316210aaca5d02b40131db</sys_scope>
+            <sys_update_name>sys_ui_form_sections_865e310bc3716210aaca5d02b401318d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-02 13:33:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace TestApp 0" name="workspace-testapp-0">ac5e310b467162106ee5314af984e92d</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
