@@ -6,24 +6,24 @@
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description>Allow write for records in x_1601883_testapp_test, for users with role x_1601883_testapp.user, and if users satisfy the conditions of the Security Attribute "x_1601883_testapp__ACL_1994b50fc3316210aaca5d02b4013128".</description>
+        <description>Allow write for decimal in x_1601883_testapp_test, for users with role x_1601883_testapp.user.</description>
         <local_or_existing>Local</local_or_existing>
-        <name>x_1601883_testapp_test</name>
+        <name>x_1601883_testapp_test.string</name>
         <operation display_value="write">write</operation>
         <script/>
-        <security_attribute display_value="x_1601883_testapp__ACL_1994b50fc3316210aaca5d02b4013128">41052a38c3422210aaca5d02b40131a8</security_attribute>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-02 12:51:00</sys_created_on>
-        <sys_id>1994b50fc3316210aaca5d02b4013128</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_1601883_testapp_test</sys_name>
+        <sys_created_on>2025-06-08 02:48:01</sys_created_on>
+        <sys_id>031422f4c3422210aaca5d02b40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1601883_testapp_test.string</sys_name>
         <sys_package display_value="TestApp" source="x_1601883_testapp">04447dcbc3316210aaca5d02b40131db</sys_package>
         <sys_policy/>
         <sys_scope display_value="TestApp">04447dcbc3316210aaca5d02b40131db</sys_scope>
-        <sys_update_name>sys_security_acl_1994b50fc3316210aaca5d02b4013128</sys_update_name>
+        <sys_update_name>sys_security_acl_031422f4c3422210aaca5d02b40131f9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-08 02:51:59</sys_updated_on>
+        <sys_updated_on>2025-06-08 02:48:01</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
